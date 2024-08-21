@@ -1,0 +1,10 @@
+get hit
+not get hit
+shoot
+	miss
+	hit rock
+		enough to destroy
+		not enough to destroy
+
+rock hit rock
+

@@ -1,0 +1,4 @@
+Make a summary of changes happens in the commit
+Short and to the point
+When there is a new change to the work and it is useful
+True

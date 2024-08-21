@@ -1,0 +1,27 @@
+{kind: integer, spelling: "0", line: 1, column: 2}
+{kind: integer, spelling: "4", line: 1, column: 4}
+{kind: integer, spelling: "36", line: 1, column: 6}
+ 1:  0 4 36 12125 
+            ^
+
+token_is_in(token,identifier) returns false
+token_is_in(token,integer) returns true
+token_is_in(token,double) returns false
+token_is_in(token,keyword) returns false
+token_is_in(token,symbol) returns false
+{kind: integer, spelling: "12125", line: 1, column: 9}
+{kind: integer, spelling: "888", line: 1, column: 15}
+{kind: integer, spelling: "34", line: 1, column: 19}
+{kind: integer, spelling: "0", line: 1, column: 22}
+ 1:  0 4 36 12125 888 34 000
+                          ^
+
+token_is_in(token,identifier) returns false
+token_is_in(token,integer) returns true
+token_is_in(token,double) returns false
+token_is_in(token,keyword) returns false
+token_is_in(token,symbol) returns false
+{kind: integer, spelling: "0", line: 1, column: 23}
+{kind: integer, spelling: "0", line: 1, column: 24}
+{kind: integer, spelling: "235", line: 1, column: 26}
+read 10 tokens

@@ -1,0 +1,8 @@
+{kind: var, spelling: "var"}
+{kind: if, spelling: "if"}
+{kind: while, spelling: "while"}
+{kind: let, spelling: "let"}
+{kind: else, spelling: "else"}
+{kind: else, spelling: "else"}
+{kind: else, spelling: "else"}
+read 7 tokens

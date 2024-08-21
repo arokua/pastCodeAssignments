@@ -1,0 +1,3 @@
+if network disconnected:
+game pause until connected
+then continue until disconnected again

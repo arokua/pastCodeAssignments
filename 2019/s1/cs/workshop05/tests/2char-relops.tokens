@@ -1,0 +1,11 @@
+{kind: <=, spelling: "<="}
+{kind: ==, spelling: "=="}
+{kind: !=, spelling: "!="}
+{kind: >=, spelling: ">="}
+{kind: >=, spelling: ">="}
+{kind: ==, spelling: "=="}
+{kind: <, spelling: "<"}
+{kind: <, spelling: "<"}
+{kind: >, spelling: ">"}
+{kind: >, spelling: ">"}
+read 10 tokens

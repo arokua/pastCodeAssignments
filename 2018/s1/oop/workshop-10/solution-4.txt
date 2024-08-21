@@ -1,0 +1,1 @@
+Trial and error method. When the rat meets a wall, it will have to turn back and take a different route. Keeping doing so until the exit is found.

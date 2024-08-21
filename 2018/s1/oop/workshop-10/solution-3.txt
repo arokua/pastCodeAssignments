@@ -1,0 +1,6 @@
+Make evervy words in a paragraph in to an array.
+create a counter
+loops through the array and check for any matching word then increase the ocunter value acording to it.
+empty the array at the end annd repeat the process with the next paragraph until the book is over
+
+return the counter.

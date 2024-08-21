@@ -1,0 +1,14 @@
+Currently researhing more for pseuo code
+
+Basically
+option1: guess the location game
+#include a graphic library
+
+option 2:
+hangman base version( no graphics)
+#make c++ read a text files with a few hundred dictionary word
+choos a random from that list
+print out to screen in the form -------
+every time the user enter the correct word, for example: e
+e-e------
+.

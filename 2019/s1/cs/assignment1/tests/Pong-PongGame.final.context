@@ -1,0 +1,211 @@
+{kind: eol_comment, spelling: " This file is part of www.nand2tetris.org", line: 1, column: 1}
+{kind: eol_comment, spelling: " and the book "The Elements of Computing Systems"", line: 2, column: 1}
+{kind: eol_comment, spelling: " by Nisan and Schocken, MIT Press.", line: 3, column: 1}
+ 3: // by Nisan and Schocken, MIT Press.
+ 4: // File name: projects/11/Pong/PongGame.jack
+    ^
+
+token_is_in(token,identifier) returns false
+token_is_in(token,integer) returns false
+token_is_in(token,double) returns false
+token_is_in(token,keyword) returns false
+token_is_in(token,symbol) returns false
+{kind: eol_comment, spelling: " File name: projects/11/Pong/PongGame.jack", line: 4, column: 1}
+{kind: adhoc_comment, spelling: "*
+ * The Pong game.
+ ", line: 6, column: 1}
+{kind: class, spelling: "class", line: 9, column: 1}
+{kind: identifier, spelling: "PongGame", line: 9, column: 7}
+ 8:  */
+ 9: class PongGame {
+                   ^
+
+token_is_in(token,identifier) returns false
+token_is_in(token,integer) returns false
+token_is_in(token,double) returns false
+token_is_in(token,keyword) returns false
+token_is_in(token,symbol) returns true
+{kind: {, spelling: "{", line: 9, column: 16}
+{kind: eol_comment, spelling: " The singlton ", line: 11, column: 5}
+{kind: identifier, spelling: "static", line: 12, column: 5}
+{kind: identifier, spelling: "PongGame", line: 12, column: 12}
+ 11:     // The singlton 
+ 12:     static PongGame instance;
+                         ^
+
+token_is_in(token,identifier) returns true
+token_is_in(token,integer) returns false
+token_is_in(token,double) returns false
+token_is_in(token,keyword) returns false
+token_is_in(token,symbol) returns false
+{kind: identifier, spelling: "instance", line: 12, column: 21}
+{kind: ;, spelling: ";", line: 12, column: 29}
+{kind: eol_comment, spelling: " The bat", line: 14, column: 5}
+{kind: identifier, spelling: "field", line: 15, column: 5}
+ 14:     // The bat
+ 15:     field Bat 
+               ^
+
+token_is_in(token,identifier) returns true
+token_is_in(token,integer) returns false
+token_is_in(token,double) returns false
+token_is_in(token,keyword) returns false
+token_is_in(token,symbol) returns false
+{kind: identifier, spelling: "Bat", line: 15, column: 11}
+{kind: identifier, spelling: "bat", line: 15, column: 15}
+{kind: ;, spelling: ";", line: 15, column: 18}
+{kind: eol_comment, spelling: " The ball", line: 17, column: 5}
+ 17:     // The ball
+ 18:     field 
+         ^
+
+token_is_in(token,identifier) returns true
+token_is_in(token,integer) returns false
+token_is_in(token,double) returns false
+token_is_in(token,keyword) returns false
+token_is_in(token,symbol) returns false
+{kind: identifier, spelling: "field", line: 18, column: 5}
+{kind: identifier, spelling: "Ball", line: 18, column: 11}
+{kind: identifier, spelling: "ball", line: 18, column: 16}
+{kind: ;, spelling: ";", line: 18, column: 20}
+ 19: 
+ 20:     // The current wall that the ball is bouncing from.
+         ^
+
+token_is_in(token,identifier) returns false
+token_is_in(token,integer) returns false
+token_is_in(token,double) returns false
+token_is_in(token,keyword) returns false
+token_is_in(token,symbol) returns false
+{kind: eol_comment, spelling: " The current wall that the ball is bouncing from.", line: 20, column: 5}
+{kind: identifier, spelling: "field", line: 21, column: 5}
+{kind: int, spelling: "int", line: 21, column: 11}
+{kind: identifier, spelling: "wall", line: 21, column: 15}
+ 20:     // The current wall that the ball is bouncing from.
+ 21:     field int wall;
+                       ^
+
+token_is_in(token,identifier) returns false
+token_is_in(token,integer) returns false
+token_is_in(token,double) returns false
+token_is_in(token,keyword) returns false
+token_is_in(token,symbol) returns true
+{kind: ;, spelling: ";", line: 21, column: 19}
+{kind: eol_comment, spelling: " True when the game is over", line: 23, column: 5}
+{kind: identifier, spelling: "field", line: 24, column: 5}
+{kind: identifier, spelling: "boolean", line: 24, column: 11}
+ 23:     // True when the game is over
+ 24:     field boolean exit;
+                       ^
+
+token_is_in(token,identifier) returns true
+token_is_in(token,integer) returns false
+token_is_in(token,double) returns false
+token_is_in(token,keyword) returns false
+token_is_in(token,symbol) returns false
+{kind: identifier, spelling: "exit", line: 24, column: 19}
+{kind: ;, spelling: ";", line: 24, column: 23}
+{kind: eol_comment, spelling: " The current score.", line: 26, column: 5}
+{kind: identifier, spelling: "field", line: 27, column: 5}
+ 26:     // The current score.
+ 27:     field int 
+               ^
+
+token_is_in(token,identifier) returns false
+token_is_in(token,integer) returns false
+token_is_in(token,double) returns false
+token_is_in(token,keyword) returns true
+token_is_in(token,symbol) returns false
+{kind: int, spelling: "int", line: 27, column: 11}
+{kind: identifier, spelling: "score", line: 27, column: 15}
+{kind: ;, spelling: ";", line: 27, column: 20}
+{kind: eol_comment, spelling: " The last wall that the ball bounced from.", line: 29, column: 5}
+ 29:     // The last wall that the ball bounced from.
+ 30:     field 
+         ^
+
+token_is_in(token,identifier) returns true
+token_is_in(token,integer) returns false
+token_is_in(token,double) returns false
+token_is_in(token,keyword) returns false
+token_is_in(token,symbol) returns false
+{kind: identifier, spelling: "field", line: 30, column: 5}
+{kind: int, spelling: "int", line: 30, column: 11}
+{kind: identifier, spelling: "lastWall", line: 30, column: 15}
+{kind: ;, spelling: ";", line: 30, column: 23}
+ 31: 
+ 32:     // The current width of the bat
+         ^
+
+token_is_in(token,identifier) returns false
+token_is_in(token,integer) returns false
+token_is_in(token,double) returns false
+token_is_in(token,keyword) returns false
+token_is_in(token,symbol) returns false
+{kind: eol_comment, spelling: " The current width of the bat", line: 32, column: 5}
+{kind: identifier, spelling: "field", line: 33, column: 5}
+{kind: int, spelling: "int", line: 33, column: 11}
+{kind: identifier, spelling: "batWidth", line: 33, column: 15}
+ 32:     // The current width of the bat
+ 33:     field int batWidth;
+                           ^
+
+token_is_in(token,identifier) returns false
+token_is_in(token,integer) returns false
+token_is_in(token,double) returns false
+token_is_in(token,keyword) returns false
+token_is_in(token,symbol) returns true
+{kind: ;, spelling: ";", line: 33, column: 23}
+{kind: adhoc_comment, spelling: "* Constructs a new Pong Game. ", line: 35, column: 5}
+{kind: identifier, spelling: "constructor", line: 36, column: 5}
+{kind: identifier, spelling: "PongGame", line: 36, column: 17}
+ 35:     /** Constructs a new Pong Game. */
+ 36:     constructor PongGame new(
+                              ^
+
+token_is_in(token,identifier) returns true
+token_is_in(token,integer) returns false
+token_is_in(token,double) returns false
+token_is_in(token,keyword) returns false
+token_is_in(token,symbol) returns false
+{kind: identifier, spelling: "new", line: 36, column: 26}
+{kind: (, spelling: "(", line: 36, column: 29}
+{kind: ), spelling: ")", line: 36, column: 30}
+{kind: {, spelling: "{", line: 36, column: 32}
+ 36:     constructor PongGame new() {
+ 37:         do 
+             ^
+
+token_is_in(token,identifier) returns true
+token_is_in(token,integer) returns false
+token_is_in(token,double) returns false
+token_is_in(token,keyword) returns false
+token_is_in(token,symbol) returns false
+{kind: identifier, spelling: "do", line: 37, column: 9}
+{kind: identifier, spelling: "Screen", line: 37, column: 12}
+{kind: ., spelling: ".", line: 37, column: 18}
+{kind: identifier, spelling: "clearScreen", line: 37, column: 19}
+ 36:     constructor PongGame new() {
+ 37:         do Screen.clearScreen()
+                                  ^
+
+token_is_in(token,identifier) returns false
+token_is_in(token,integer) returns false
+token_is_in(token,double) returns false
+token_is_in(token,keyword) returns false
+token_is_in(token,symbol) returns true
+{kind: (, spelling: "(", line: 37, column: 30}
+{kind: ), spelling: ")", line: 37, column: 31}
+{kind: ;, spelling: ";", line: 37, column: 32}
+{kind: identifier, spelling: "let", line: 39, column: 9}
+ 38: 
+ 39:         let batWidth 
+                 ^
+
+token_is_in(token,identifier) returns true
+token_is_in(token,integer) returns false
+token_is_in(token,double) returns false
+token_is_in(token,keyword) returns false
+token_is_in(token,symbol) returns false
+{kind: identifier, spelling: "batWidth", line: 39, column: 13}
+read 64 tokens

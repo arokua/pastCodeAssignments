@@ -1,0 +1,26 @@
+{kind: integer, spelling: "0", line: 1, column: 2}
+{kind: double, spelling: "4.3", line: 1, column: 4}
+{kind: double, spelling: "3.6e-89", line: 1, column: 8}
+ 1:  0 4.3 3.6e-89 12125.34e9 
+                   ^
+
+token_is_in(token,identifier) returns false
+token_is_in(token,integer) returns false
+token_is_in(token,double) returns true
+token_is_in(token,keyword) returns false
+token_is_in(token,symbol) returns false
+{kind: double, spelling: "12125.34e+9", line: 1, column: 16}
+{kind: double, spelling: "888e+0", line: 1, column: 27}
+{kind: integer, spelling: "34", line: 1, column: 33}
+{kind: integer, spelling: "0", line: 1, column: 36}
+ 1:  0 4.3 3.6e-89 12125.34e9 888E0 34 000
+                                        ^
+
+token_is_in(token,identifier) returns false
+token_is_in(token,integer) returns true
+token_is_in(token,double) returns false
+token_is_in(token,keyword) returns false
+token_is_in(token,symbol) returns false
+{kind: integer, spelling: "0", line: 1, column: 37}
+{kind: double, spelling: "0.000000e-00008", line: 1, column: 38}
+read 9 tokens

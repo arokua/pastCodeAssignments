@@ -1,0 +1,1 @@
+Using the last letter if the word find another word that starts with thqat specific letter. Keep doing this until the end word is the next letter in order. We have find the number of letter in the transition word.

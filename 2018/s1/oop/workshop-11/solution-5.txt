@@ -1,0 +1,1 @@
+too many rocks on screen, interacting can cause loop overtime error

@@ -1,0 +1,15 @@
+{kind: {, spelling: "{"}
+{kind: }, spelling: "}"}
+{kind: (, spelling: "("}
+{kind: ), spelling: ")"}
+{kind: ), spelling: ")"}
+{kind: ), spelling: ")"}
+{kind: ), spelling: ")"}
+{kind: ), spelling: ")"}
+{kind: ;, spelling: ";"}
+{kind: ,, spelling: ","}
+{kind: @, spelling: "@"}
+{kind: @, spelling: "@"}
+{kind: =, spelling: "="}
+{kind: ;, spelling: ";"}
+read 14 tokens

@@ -1,0 +1,13 @@
+{kind: @, spelling: "@", line: 1, column: 9}
+{kind: identifier, spelling: "hello_mum", line: 1, column: 10}
+{kind: :, spelling: ":", line: 1, column: 19}
+ 1:         @hello_mum:17
+                       ^
+
+token_is_in(token,identifier) returns false
+token_is_in(token,integer) returns true
+token_is_in(token,double) returns false
+token_is_in(token,keyword) returns false
+token_is_in(token,symbol) returns false
+{kind: integer, spelling: "17", line: 1, column: 20}
+read 4 tokens

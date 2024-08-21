@@ -1,0 +1,5 @@
+Method 1:loops through evervy elements in the array, and compare each to x.
+If found, return true, vice versa
+
+Method 2:If the array is a long one, can sort it, then find the middle number. Compare x to it. If x> then x lies  in the later half of the array, if not then x lies in the first half. Then repeats the steps for the subsequent halved subarrays until a conclusion can be reached.
+

@@ -1,0 +1,39 @@
+
+Usinng an 3x4 array as example, dimensions can be edited
+#include <iostream>
+
+using namespace std;
+
+// program to add two numbers together
+int main()
+{
+	int oldA[3][4]= {{1,2,3,0},{2,1,1,2},{0,1,1,1}};
+	int new_array[3][4] ={{1,2,3,4},{1,2,3,4},{1,2,3,4}};
+	for (int i = 0; i < 3; i++){
+		for (int j = 0; j< 4; j++){
+			if (oldA[i][j] != 0 ){
+				if (new_array[i][j]!= 0){
+					new_array[i][j]= oldA[i][j];
+				}
+				
+			}
+			else{
+
+				for (int r = 0; r < 3; r++){
+					new_array[r][j] = 0;
+				}
+				for (int c = 0; c < 4; c++){
+					new_array[i][c] = 0;
+				}
+			}
+		}
+	}
+	// normal finish - exit with 0
+	for (int i = 0; i < 3; i++){
+		for (int j = 0; j< 4; j++){
+			cout<< new_array[i][j] <<"\t";
+		}cout <<"\n";
+	}
+	return 0 ;
+}
+

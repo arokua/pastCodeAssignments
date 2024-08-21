@@ -1,0 +1,21 @@
+int lives
+whiles lives > 0
+	startgame true
+	while startgame
+		if getHit
+			lives-=1
+		if time % 100(second) == 0:
+			lives +=1
+		while notMiss
+					rockgetSmall
+					rock Destroyed	
+			if rockDestroyed == true:
+				chanceDrop = random(0,1)
+				chanceItem1=(0,1)
+				chanceItem3=(0,1)
+				chanceItem2=(0,1)
+				chance * chance
+				etc
+			else rockNotDestroyed
+				rockgetsmall
+

@@ -1,0 +1,13 @@
+{kind: +, spelling: "+"}
+{kind: *, spelling: "*"}
+{kind: *, spelling: "*"}
+{kind: /, spelling: "/"}
+{kind: -, spelling: "-"}
+{kind: -, spelling: "-"}
+{kind: -, spelling: "-"}
+{kind: -, spelling: "-"}
+{kind: *, spelling: "*"}
+{kind: +, spelling: "+"}
+{kind: +, spelling: "+"}
+{kind: -, spelling: "-"}
+read 12 tokens

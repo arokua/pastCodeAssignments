@@ -1,0 +1,7 @@
+unknown how many times an event can happen with predetermined chance, such as network connection or other real life events related to opening/ playing the game
+example of shield:
+	while loop for key press+hold
+		then while loop for shield timer
+if key is not pressthenhold: nothing happpen
+elif hold: shield activate, loop back to timer for as long as either key is hold or timer is not out 
+

@@ -1,0 +1,15 @@
+{kind: identifier, spelling: "hello", line: 1, column: 2}
+{kind: identifier, spelling: "bobis97today", line: 1, column: 8}
+{kind: identifier, spelling: "i8me", line: 1, column: 21}
+ 2: 
+ 3:     is_computer_systems____
+        ^
+
+token_is_in(token,identifier) returns true
+token_is_in(token,integer) returns false
+token_is_in(token,double) returns false
+token_is_in(token,keyword) returns false
+token_is_in(token,symbol) returns false
+{kind: identifier, spelling: "is_computer_systems____", line: 3, column: 5}
+{kind: identifier, spelling: "I_know_too_much_and_8_my_lunch", line: 5, column: 1}
+read 5 tokens

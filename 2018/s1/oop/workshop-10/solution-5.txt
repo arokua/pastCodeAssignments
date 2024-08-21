@@ -1,0 +1,4 @@
+Check destionation color must be the same as the starting spot.
+IF yes, proceed to diagonal left or right and go to the destination
+min1, max2 
+
