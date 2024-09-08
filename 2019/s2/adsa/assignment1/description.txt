@@ -1,0 +1,15 @@
+This C++ program performs arithmetic (addition, subtraction, multiplication, and division) on very large integers using strings.
+It works with numbers in bases from 2 to 10. Here's the breakdown:
+1.	String-Based Arithmetic:
+	Numbers are stored as strings to handle large values.
+	Addition and subtraction are done digit by digit, accounting for base-specific carry or borrow.
+	Multiplication uses the Karatsuba algorithm, which is faster for large numbers than traditional methods.
+2.	Karatsuba Multiplication:
+	This divide-and-conquer approach splits numbers, performs smaller multiplications, and combines the results. It reduces multiplication time complexity.
+3.	String Division:
+	Division is implemented using long division, similar to manual calculations, handling string-based numbers.
+4.	Base Conversion:
+  The program can convert numbers between base 10 and any base from 2 to 10, allowing operations across different bases.
+5.	Input and Output:
+ Takes two large numbers and a base as input, performs addition, multiplication (Karatsuba), and division, and outputs the results.
+
